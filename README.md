@@ -16,7 +16,9 @@ Get the following installed on your windows machine first (all of this should be
 * Anaconda (this gets you python and a bunch of other packages including Jupyter)
 	* I prefer the Python 3.x version, even if it's a little extra work to get ijs to work.
 * NodeJS
+
 _really? links? can't google?_
+
 _also just get the latest versions_
 
 1. Ensure that Anaconda is installed on your system
@@ -31,6 +33,9 @@ _also just get the latest versions_
 `npm install -g ijavascript`
 7. run ijsinstall so it can register with jupyter:
 `ijsinstall --install=global`
+	* for some funny reason, this may not work, in which case, ensure that the following is in your environment path (in windows):
+	`C:\Users\[user]\AppData\Roaming\npm`
+	* now try again...
 8. (Only if you are on Anaconda 3) after we are done with today's tutorial, remember to run
 `deactivate Python27`
 to switch back to Python 3.x
